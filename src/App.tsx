@@ -32,7 +32,7 @@ function App() {
   return (
       <>
         <Plot data={data} />
-        <button onClick={switchXY}>Switch X and Y</button>
+        <button onClick={switchXY} className={'magicBtn'}>Make magic</button>
       </>
   );
 }

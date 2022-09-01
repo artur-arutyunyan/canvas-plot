@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+canvas {
+  box-shadow: rgba(16, 155, 45, 0.24) 0px 10px 15px;
+}
+.magicBtn {
+  margin-top: 20px;
+  padding: 5px 20px;
+  opacity: 1;
+  outline: 0;
+  color: #fff;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 2px;
+  display: block;
+  text-decoration: none;
+  background: dodgerblue;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+.magicBtn:hover {
+  background: crimson;
+  box-shadow: rgba(1, 55, 45, 0.24) 0px 10px 15px;
+}
